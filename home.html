@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>St. Peter Velle Technical Training Center Inc.</title>
+<meta charset="UTF-8">
+<link rel="icon" href="picture/logs.png" type="image">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/paa.css">
+<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+<script type="text/javascript" src="js/slider.js"></script>
+</head>
+<body>
+
+
+
+
+<div class="header">
+  <div class="slideshow-container" style="background-color: #f2f2f2">
+    <img class="mySlides" src="picture/welding.jpg" style="box-shadow: 0px 5px 5px 5px #888888; width:85%; height: 620px; margin-left: 100px;">
+    <img class="mySlides" src="picture/automotive.jpg" style="box-shadow: 0px 5px 5px 5px #888888; width:85%; height: 620px; margin-left: 100px;">
+    <img class="mySlides" src="picture/electronics.jpg" style="box-shadow: 0px 5px 5px 5px #888888; width:85%; height: 620px; margin-left: 100px;">
+  </div>
+</div>
+
+<div id="navbar">
+  <a href="contak.html">Contact Us</a>
+  <a href="Events.html">Events</a>
+  <a href="Services.html">Services</a>
+  <a href="about us.html">About Us</a>
+  <a class="active" href="javascript:void(0)">Home</a>
+</div>
+
+
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+  
+  <script>
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+
+<div class="row">
+  <div class="side">
+    <h2><u>Location</u></h2>
+    <div class="" style="height:200px;">
+      <a href="https://www.google.com/maps/uv?pb=!1s0x3397b421ff302741%3A0x997df1886afd1d65!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPNfZo1AL4PbFO1WFm_GRJVhNqZwweG1WF8aPz8%3Dw234-h157-n-k-no!5sst%20peter%20velle%20technical%20training%20center%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2sZS3rjFU0w0kfcVFZcpNWgQ&hl=en&sa=X&ved=2ahUKEwi569CbyaD-AhVXSmwGHQ2mBewQ7ZgBKAB6BAgVEAI"> <img src="picture/location.png" style="width: 300px;" height="200px"></a>
+    </div>
+    <p style="margin-top: 30px;"><i>Address: 92 p MacArthur Hwy, Valenzuela, 1440 Metro Manila.</i></p>
+    
+  </div>
+  <div class="main">
+    <h1> <u>St. Peter Velle Technical Training Center Inc.</u></h1>
+    <h3><i>Senior High School</i></h3>
+    <div class="" style="height:200px;">
+      <a href="https://www.facebook.com/stpetervelle2003"><img src="picture/scho.jpg" style="height: 400px; width: 800px; margin-left: 5%;"></a>
+    </div>
+    <div class="est">
+    <p><i>As a Senior High School, St. Peter Velle has a good offer for the coming year. There is a free tablet or Php 2,000 cash, as well as a free uniform, ID, and module. Let's go ahead and enroll.</i></p>
+  </div>
+
+<div class="sen">
+    <h2><u>Senior High School Uniform</u> </h2>
+    <div class="" style="height:200px;">
+    <img src="picture/uni.jpg" style="height: 400px; width: 800px; margin-left: 5%;"></a>
+
+    </div>
+ 
+    <p style="margin-top: 220px; margin-bottom: 30px;"><i>When entering St. Peter Velle, students must always wear the correct uniform and show identification. Men are not permitted to wear earrings, especially if they are students at St. Peter Velle Technical Training Center.</i></p>
+  </div>
+</div>
+
+<div class="footer">
+    
+  <ul>
+    <p style="float: left; margin-left: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 7px; font-size: 15px;">St. Peter Velle Technical Training Center Inc.</p>
+    <li><a href=""><img src="icon/ig.png" style="height: 35px; width: 40px;"></a>
+    <li><a href="https://twitter.com/vellepeter?lang=en"><img src="icon/twitter.png" style="height: 35px; width: 40px;"></a>
+    <li><a href="https://www.facebook.com/stpetervelle2003?mibextid=ZbWKwL"><img src="icon/fb.png" style="height: 35px; width: 40px; margin-left: 200px;"></a>
+      
+      <div class="eyy" style="margin-right: 230px;">
+      <li><a href="contak.html"><font color="white" style="float: left; margin-left: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 10px; font-size: 15px;">Contact us</font></a>
+      <li><a href="Events.html"><font color="white" style="float: left; margin-left: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 10px; font-size: 15px;">events</font></a>
+        <li><a href="Services.html"><font color="white" style="float: left; margin-left: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 10px; font-size: 15px;">Services</font></a>
+      <li><a href="about us.html" style="float: left; margin-left: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 10px; font-size: 15px;"><font color="white">about us</font></a>
+      <li><a href="home.html" style="float: right; margin-left: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 10px; font-size: 15px;"><font color="white">Home</font></a>
+      </div>
+        <div style="clear: both;"></div>
+    </ul>
+
+<div>
+
+</body>
+</html>
