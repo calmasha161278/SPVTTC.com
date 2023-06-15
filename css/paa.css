@@ -1,0 +1,38 @@
+.footer {
+   position: sticky;
+   left: 0;
+   width: 100%;
+   color: white;
+   background-color: #191970;
+
+
+}
+
+ul{
+	padding: 0;
+	position: relative;
+	width: 100%;
+	margin-top: 3px;
+	
+}
+
+ul li{
+	list-style: none;
+	float: right;
+	color: black;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 13px;
+	margin-top: -20px;
+
+	
+
+}
+
+ul li:hover,
+.active
+{
+	background: gray;
+	color: white;
+}
